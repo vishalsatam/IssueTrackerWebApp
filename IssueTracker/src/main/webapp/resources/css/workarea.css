@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+#leftNav{
+	height:100%;
+	width:20%;
+	float:left;
+	background-color: white;
+}
+
+#workarea{
+	height:100%;
+	width:80%;
+	float:left;
+	
+}
+
+#navTab{
+	width:100%;
+	float:left;
+}
+
+#newissueCreation{
+	width:50%;
+	
+	background-color:#F4F4F4;
+	padding:3%;	
+}
+
+.hoverable > tbody > tr:hover td{
+	background-color: #889fff;
+}
+
+table > tfoot > tr >td{
+	padding:1% 40%;
+}
+
+
+
+#usertable > thead > tr{
+	color:#FFFFFF;
+	background-color: #889fff;
+}
+
+#usertable > thead > tr > td{
+	text-align: center;
+}
+
+#issuesTable > thead > tr{
+	color:#FFFFFF;
+	background-color: #333300;
+}
+
+.message{
+	background-color:#F4F4F4;
+	width:100%;
+	height:auto;
+	padding:10px 10px;
+	margin:20px 0;
+	
+}
+
+.issueArea{
+	margin-top:50px;
+}
+
+.issueDesc{
+	margin-top:10px;
+	padding:10px;
+	border:1px solid;
+								
+}
+.overdue{
+	color:red;
+}
+.underdue{
+	color:green;
+}
+.displayError{
+	color:red;
+}
+.formErrors{
+	color:#FF0000;
+	display:block;
+}
+.userdetailsdisplay{
+	background-color:#EDF0F5;
+	margin:25px 0px 25px 0px;
+	padding:10px 80px 30px 60px;
+	
+}
+.buttondisplay{
+	width:50%;
+	text-align:center;
+	margin:0 auto;
+}
+.formSuccess{
+	color:green;
+}
+
+#actionsToPerform{
+	width:90%;
+	padding:3%;
+	background-color:#F4F4F4;
+}
+#transferActionsToBePerformed{
+	
+}
+
+#dataToBeSet{
+	
+}
+
+.row{
+	margin:5px 0;
+}
+
+#selectionsForAssignIssue{
+	width:40%;
+	padding:1%;
+	background-color:#F4F4F4;	
+}

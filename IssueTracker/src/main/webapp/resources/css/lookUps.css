@@ -1,0 +1,20 @@
+table td{
+	height:80px;
+	vertical-align: middle !important;
+	text-align:center;
+}
+
+table td img{
+	height:100px;
+	width:100px;
+}
+
+#bodyWrapper H3{
+	background-color:#F9F9F9;
+	padding:1%;
+	
+}
+
+.modalDivsFoot{
+	text-align:center;
+}

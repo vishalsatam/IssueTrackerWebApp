@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/finalproject</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<!--Change this when you want to create the final schema-->
+		  <property name="hibernate.hbm2ddl.auto">update</property>
+				
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="com.wt.issuetracker.entity.Account" />
+		<mapping class="com.wt.issuetracker.entity.Issue" />
+		<mapping class="com.wt.issuetracker.entity.Message" />
+		<mapping class="com.wt.issuetracker.entity.Team" />
+		
+		<mapping class="com.wt.issuetracker.entity.User" />
+		<mapping class="com.wt.issuetracker.entity.Analyst" />
+		<mapping class="com.wt.issuetracker.entity.Customer" />
+		<mapping class="com.wt.issuetracker.entity.Manager" />
+		<mapping class="com.wt.issuetracker.entity.Admin" />
+
+		
+
+	</session-factory>
+</hibernate-configuration>

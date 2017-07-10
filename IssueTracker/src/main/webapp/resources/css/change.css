@@ -1,0 +1,28 @@
+#passwordWrapper{
+	padding:5%;
+	background-color:#ECECEC;
+	text-align:left;
+}
+
+#passwordWrapper p{
+	background-color:#3B78E7;
+	font-size:14pt;
+	color:white;
+}
+
+#passwordWrapper input{
+	width:200px;
+
+}
+
+#passwordWrapper img{ 
+	visibility:hidden;
+}
+
+#err{
+	color:#FF0000;
+}
+
+#success{
+	color:#00FF00 !important;
+}

@@ -1,0 +1,62 @@
+#bodyWrapper{
+
+	
+}
+
+#bodyWrapper div{
+	
+	//border:1px solid;
+	
+}
+
+div.imgWrapper img{
+	height:270px;
+	width:280px;
+	text-align:center;
+}
+
+.imgWrapper{
+	padding:0;
+	
+}
+.row1{
+
+}
+
+.genBox{
+	background-color:#E8F2FE;
+	padding:2%;
+	margin:5px 0;
+
+}
+
+div h5{
+	font-weight:bold;
+}
+h6{
+	font-weight:bold;
+	display:inline;
+	font-style:arial;
+	font-size:normal;
+}
+
+.row2{
+	height:60px;
+
+}
+
+.row{
+	margin-top:5px;
+}
+
+.basicinner1{
+	padding-right:30%;
+	width:38%;
+	
+}
+
+.basicinner2{
+	
+	width:58%;
+}
+

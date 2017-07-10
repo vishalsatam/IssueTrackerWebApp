@@ -1,0 +1,62 @@
+body{
+	
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image : url("../images/bodyBackground.jpg");
+	background-size: cover;
+	background-color: white;
+
+}
+
+
+
+#wrapper{
+
+	margin:2% 30% 0 30%;
+
+	padding : 5% 10%;
+	//background-color:#F4F4F4;
+	box-shadow: #00000 9px;
+}
+
+#loginWrapper p{
+	color : red;
+}
+
+#header{
+	width:100%;
+}
+#header img{
+	min-width:100%;
+	max-height:300px;
+}
+
+#loginWrapper{
+	/*padding: 0 40%;*/
+
+}
+
+#loginWrapper input{
+	margin: 10px auto;
+	text-align:center;
+}
+
+#subText{
+
+	padding:10px;
+}
+
+#subText{
+		font-family: "arial";
+	font-size:10pt;
+	font-color:#FFF;
+	color:#FFF !important;
+}
+
+.displayError{
+	font-weight:bold;
+	font-size:9pt;
+	background-color:#F4F4F4;
+	color:red;
+}
